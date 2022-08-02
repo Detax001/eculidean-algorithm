@@ -1,4 +1,5 @@
-﻿def euclideanAlgorithm1(a, b):
+
+def euclideanAlgorithm1(a, b):
     """
     Finds the greatest common divisor and the two integers that can find it
     gcd(a, b) = r = uv + vb
@@ -13,5 +14,4 @@
         rp, rc = rc, rp - q * rc
         up, uc = uc, up - q * uc
         vp, vc = vc, vp - q * vc
-    g, u, v = rp, up, vp
-    return g, u, v
+ 
